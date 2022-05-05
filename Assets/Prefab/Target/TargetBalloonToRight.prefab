@@ -4959,8 +4959,9 @@ GameObject:
   - component: {fileID: 8483874004673715089}
   - component: {fileID: 2628561970480291737}
   - component: {fileID: 7748708760712797347}
+  - component: {fileID: 447112548071810495}
   m_Layer: 0
-  m_Name: TargetBalloon
+  m_Name: TargetBalloonToRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5015,7 +5016,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: 11, z: 4}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 3.2017326, z: 0}
 --- !u!54 &4263226932978130293
 Rigidbody:
@@ -5073,6 +5074,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd49e9415ff881040b1cf4c9f86bf13f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &447112548071810495
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4129598434430654068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.5
+  m_Height: 10
+  m_Direction: 1
+  m_Center: {x: 0, y: 4, z: 0}
 --- !u!1 &7231012465703894457
 GameObject:
   m_ObjectHideFlags: 0

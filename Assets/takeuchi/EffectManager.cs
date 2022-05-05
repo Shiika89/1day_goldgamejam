@@ -6,6 +6,7 @@ public enum EffectType
 {
     Explosion,
     Shot,
+    CoinBurst
 }
 /// <summary>
 /// エフェクトを再生する

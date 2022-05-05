@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         FadeController.StartFadeIn();
+        SoundManager.PlayBGM(BGMType.Game);
     }
     public void GameStart()
     {

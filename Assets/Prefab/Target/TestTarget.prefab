@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8939796103460393657}
   - component: {fileID: 8939796103460393658}
   - component: {fileID: 8939796103460393659}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TestTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,6 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_scoreValue: 100
+  _scoreText: {fileID: 0}
 --- !u!114 &8939796103460393658
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 7832983409709998852}
   - component: {fileID: 6711533551291066496}
   - component: {fileID: 2677519286420053131}
-  m_Layer: 0
-  m_Name: WoodBox
+  m_Layer: 8
+  m_Name: WoodBoxToRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -165,6 +165,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809860734489229777, guid: e9b28d4c965d7c442895bf3b3b148d80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6255740602589677610, guid: e9b28d4c965d7c442895bf3b3b148d80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6266215161899697455, guid: e9b28d4c965d7c442895bf3b3b148d80,
         type: 3}

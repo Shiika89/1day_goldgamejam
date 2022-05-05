@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7175338276363243453}
   - component: {fileID: 5484019956276571304}
   - component: {fileID: 2449238212652017474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Ropes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 3546759994734367280}
   - component: {fileID: 8850884177407210094}
   - component: {fileID: 8095024773559644578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_StairsSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 2529380156225510902}
   - component: {fileID: 6919761995590277290}
   - component: {fileID: 1306122859308038229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_LoopholeCap2_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 6943167262324547872}
   - component: {fileID: 3103219553988157650}
   - component: {fileID: 4336418089660534317}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Bracing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 1899351469479011771}
   - component: {fileID: 2130745267893567364}
   - component: {fileID: 7678376588205454746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_LoopholeCap3_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 1138347739737368951}
   - component: {fileID: 8030693697666631734}
   - component: {fileID: 6106202935539627376}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_MainFlag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 8719678205844861094}
   - component: {fileID: 1083510747732523960}
   - component: {fileID: 7155587738415093784}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShipToRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ GameObject:
   - component: {fileID: 1930781079846693150}
   - component: {fileID: 7121286743566947238}
   - component: {fileID: 9058105971947660262}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Loopholes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 7200221227394980458}
   - component: {fileID: 3786331682849748236}
   - component: {fileID: 32224167619433326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -751,7 +751,7 @@ GameObject:
   - component: {fileID: 3161700480894627840}
   - component: {fileID: 4339584361243399259}
   - component: {fileID: 4250615905013663637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_SailFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 1149943997749611903}
   - component: {fileID: 7629804951055980493}
   - component: {fileID: 2237482070551843831}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_FencingMid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 8677106192283123172}
   - component: {fileID: 6523243930991900428}
   - component: {fileID: 2988217079049175296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Flag2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -989,7 +989,7 @@ GameObject:
   - component: {fileID: 5137475556927706625}
   - component: {fileID: 2967185073411393986}
   - component: {fileID: 3916093629318316165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_FencingFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1068,7 +1068,7 @@ GameObject:
   - component: {fileID: 1921181263265312032}
   - component: {fileID: 4858826879453716833}
   - component: {fileID: 4915959294564581308}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Door1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 8964627680693790770}
   - component: {fileID: 7427525651885709077}
   - component: {fileID: 3442461455254016145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_LoopholeCap3_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1226,7 +1226,7 @@ GameObject:
   - component: {fileID: 5360563418799441863}
   - component: {fileID: 8724518089408776921}
   - component: {fileID: 7735972996433399199}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_MastMid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1305,7 +1305,7 @@ GameObject:
   - component: {fileID: 1450731732831639850}
   - component: {fileID: 1727402186459713163}
   - component: {fileID: 1767631696857677410}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_LoopholeCap2_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1382,7 +1382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4373547998294739637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1457,7 +1457,7 @@ GameObject:
   - component: {fileID: 3000573094299380483}
   - component: {fileID: 3289340778962459415}
   - component: {fileID: 7993200407751304024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1536,7 +1536,7 @@ GameObject:
   - component: {fileID: 7185314193005108055}
   - component: {fileID: 3012884854841640012}
   - component: {fileID: 8730394543796053407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_LoopholeCap1_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1616,7 +1616,7 @@ GameObject:
   - component: {fileID: 1946126137056467564}
   - component: {fileID: 5340654126799765383}
   - component: {fileID: 4774674853567335365}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_FloorFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1695,7 +1695,7 @@ GameObject:
   - component: {fileID: 3453215067507717702}
   - component: {fileID: 148870617885645771}
   - component: {fileID: 8443701063440334058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_SailBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1774,7 +1774,7 @@ GameObject:
   - component: {fileID: 8344341573383941246}
   - component: {fileID: 4241133803777957890}
   - component: {fileID: 2286956336233168622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_MastBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1853,7 +1853,7 @@ GameObject:
   - component: {fileID: 2802432899153306487}
   - component: {fileID: 131254907233854896}
   - component: {fileID: 4610638966856544000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1932,7 +1932,7 @@ GameObject:
   - component: {fileID: 6438961410773964532}
   - component: {fileID: 7226765665931578358}
   - component: {fileID: 1494691469151301063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_SailMid2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2011,7 +2011,7 @@ GameObject:
   - component: {fileID: 5859426483047968858}
   - component: {fileID: 1275987150927733380}
   - component: {fileID: 4191342161271719282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Flag1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2091,7 +2091,7 @@ GameObject:
   - component: {fileID: 1957677135265826455}
   - component: {fileID: 8606758339934784726}
   - component: {fileID: 879654139704041598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_WireBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2170,7 +2170,7 @@ GameObject:
   - component: {fileID: 8415539684689001969}
   - component: {fileID: 5546267025352027296}
   - component: {fileID: 2870760208791085628}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Rudder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2249,7 +2249,7 @@ GameObject:
   - component: {fileID: 4643430172887751767}
   - component: {fileID: 4791355086799673047}
   - component: {fileID: 8090198230821755821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_LoopholeCap1_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2328,7 +2328,7 @@ GameObject:
   - component: {fileID: 6313461564166093956}
   - component: {fileID: 3274612164627097235}
   - component: {fileID: 2521128649666418871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_StairsTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2407,7 +2407,7 @@ GameObject:
   - component: {fileID: 3695754911973536867}
   - component: {fileID: 9026652660771997573}
   - component: {fileID: 7160344361055494390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_MastFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2487,7 +2487,7 @@ GameObject:
   - component: {fileID: 1409493344640560357}
   - component: {fileID: 4497346113377870260}
   - component: {fileID: 8821515186236132646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_WheelStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2566,7 +2566,7 @@ GameObject:
   - component: {fileID: 2175582816770101560}
   - component: {fileID: 3004025669022967080}
   - component: {fileID: 929283925180857985}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_WireFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2645,7 +2645,7 @@ GameObject:
   - component: {fileID: 7001276030223496590}
   - component: {fileID: 2528381423803880971}
   - component: {fileID: 2943404663445693757}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_StairsBot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2724,7 +2724,7 @@ GameObject:
   - component: {fileID: 7431756338164459420}
   - component: {fileID: 1238571127260458942}
   - component: {fileID: 446809148760382671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Support
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2803,7 +2803,7 @@ GameObject:
   - component: {fileID: 7883606758772448205}
   - component: {fileID: 4655091217547560416}
   - component: {fileID: 1184956213460822491}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Prow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2882,7 +2882,7 @@ GameObject:
   - component: {fileID: 921389822089997291}
   - component: {fileID: 8209913847697745575}
   - component: {fileID: 2563953208818829271}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_SailMid1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2961,7 +2961,7 @@ GameObject:
   - component: {fileID: 6998860950582436078}
   - component: {fileID: 1348050146721114592}
   - component: {fileID: 59201115936986933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_FloorBackTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3040,7 +3040,7 @@ GameObject:
   - component: {fileID: 1705956105227103199}
   - component: {fileID: 8457879607068345744}
   - component: {fileID: 8304003512569707471}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_FloorBackBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3119,7 +3119,7 @@ GameObject:
   - component: {fileID: 5142439299069766421}
   - component: {fileID: 46175701749969844}
   - component: {fileID: 8596948773101945725}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Windows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3198,7 +3198,7 @@ GameObject:
   - component: {fileID: 3533164014698616690}
   - component: {fileID: 8442273971957928253}
   - component: {fileID: 4111186730304891187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_FencingBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3277,7 +3277,7 @@ GameObject:
   - component: {fileID: 7469060389057281187}
   - component: {fileID: 7429883278658092792}
   - component: {fileID: 3015819770314736680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_FloorMid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3356,7 +3356,7 @@ GameObject:
   - component: {fileID: 4521535609509453224}
   - component: {fileID: 1948693349615473030}
   - component: {fileID: 518560940484265256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3436,7 +3436,7 @@ GameObject:
   - component: {fileID: 1745122908908927198}
   - component: {fileID: 5645611478000454323}
   - component: {fileID: 3125460957755951830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_Door2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3515,7 +3515,7 @@ GameObject:
   - component: {fileID: 2476175862766935787}
   - component: {fileID: 4603919815976778473}
   - component: {fileID: 2044796952638117532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StylShip_WireMid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3594,6 +3594,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809860734489229777, guid: e9b28d4c965d7c442895bf3b3b148d80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6255740602589677610, guid: e9b28d4c965d7c442895bf3b3b148d80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6266215161899697455, guid: e9b28d4c965d7c442895bf3b3b148d80,
         type: 3}

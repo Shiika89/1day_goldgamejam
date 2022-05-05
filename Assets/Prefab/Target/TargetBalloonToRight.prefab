@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1913920900257743707}
   - component: {fileID: 7729520666121885886}
   - component: {fileID: 6040910478396886509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Basket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 2977927613322248012}
   - component: {fileID: 9096380605833532840}
   - component: {fileID: 131543192144875666}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Torus_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3859072733008082151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 3859072733400135776}
   - component: {fileID: 3859072733400135777}
   - component: {fileID: 3859072733400135778}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FireParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4960,7 +4960,7 @@ GameObject:
   - component: {fileID: 2628561970480291737}
   - component: {fileID: 7748708760712797347}
   - component: {fileID: 447112548071810495}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TargetBalloonToRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5099,7 +5099,7 @@ GameObject:
   - component: {fileID: 513338097401403927}
   - component: {fileID: 1313314309682526586}
   - component: {fileID: 4399486658566249794}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5178,7 +5178,7 @@ GameObject:
   - component: {fileID: 232248660065865244}
   - component: {fileID: 308085285891242500}
   - component: {fileID: 5146927973418433435}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Balloon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5258,7 +5258,7 @@ GameObject:
   - component: {fileID: 8274370024935240598}
   - component: {fileID: 3798361464550681995}
   - component: {fileID: 7119241251265229386}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Torus_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5337,6 +5337,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809860734489229777, guid: e9b28d4c965d7c442895bf3b3b148d80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6255740602589677610, guid: e9b28d4c965d7c442895bf3b3b148d80,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6266215161899697455, guid: e9b28d4c965d7c442895bf3b3b148d80,
         type: 3}

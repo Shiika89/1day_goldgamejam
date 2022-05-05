@@ -26,5 +26,6 @@ public class GameManager : MonoBehaviour
     public void ReStart()
     {
         GameLoop.GameInit();
+        Score.Init();
     }
 }

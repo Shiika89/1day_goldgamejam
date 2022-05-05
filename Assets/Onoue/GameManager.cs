@@ -18,4 +18,8 @@ public class GameManager : MonoBehaviour
     {
         GameLoop.GameEnd();
     }
+    public void ReStart()
+    {
+        GameLoop.GameInit();
+    }
 }

@@ -7,12 +7,19 @@ using UnityEngine;
 /// </summary>
 public class ObjectRemover : MonoBehaviour
 {
+    private void OnEnable()
+    {
+        GameLoop.OnGameEnd += DestroyObject;
+    }
+
+    void DestroyObject() => Destroy(gameObject);
+    
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "OutsideArea")
         {
             //消去するときに何かイベントを実行する場合はここに記述
-            Destroy(gameObject);
+            DestroyObject();
         }
     }
 }

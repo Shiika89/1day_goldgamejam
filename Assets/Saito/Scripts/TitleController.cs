@@ -17,7 +17,7 @@ public class TitleController : MonoBehaviour
         m_startButton.onClick.AddListener(() => 
         {
             //m_startText.text = "";
-            SoundManager.PlaySE(SEType.Start);
+            //SoundManager.PlaySE(SEType.Start);
         }); 
     }
 

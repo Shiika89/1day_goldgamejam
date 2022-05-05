@@ -47,7 +47,7 @@ ParticleSystem:
   serializedVersion: 6
   lengthInSec: 3
   simulationSpeed: 1
-  stopAction: 0
+  stopAction: 2
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
@@ -5154,6 +5154,11 @@ PrefabInstance:
       propertyPath: ColorModule.gradient.maxGradient.key0.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2878194667517389772, guid: 169a601b62659cd4aa07c415731eff1b,
+        type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2878194667517389773, guid: 169a601b62659cd4aa07c415731eff1b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5584,6 +5589,11 @@ PrefabInstance:
       propertyPath: SizeModule.enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2878194667517389772, guid: 169a601b62659cd4aa07c415731eff1b,
+        type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2878194667517389773, guid: 169a601b62659cd4aa07c415731eff1b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5807,6 +5817,11 @@ PrefabInstance:
     - target: {fileID: 6314651161406548307, guid: b64ab2ba3e2bc2449b08db597ee76812,
         type: 3}
       propertyPath: InitialModule.startLifetime.minMaxState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314651161406548307, guid: b64ab2ba3e2bc2449b08db597ee76812,
+        type: 3}
+      propertyPath: stopAction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6314651161406548308, guid: b64ab2ba3e2bc2449b08db597ee76812,
@@ -6058,6 +6073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.startSpeed.minScalar
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314651161406548307, guid: b64ab2ba3e2bc2449b08db597ee76812,
+        type: 3}
+      propertyPath: stopAction
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6314651161406548308, guid: b64ab2ba3e2bc2449b08db597ee76812,
         type: 3}
@@ -6487,6 +6507,11 @@ PrefabInstance:
     - target: {fileID: 2878194667517389772, guid: 169a601b62659cd4aa07c415731eff1b,
         type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878194667517389772, guid: 169a601b62659cd4aa07c415731eff1b,
+        type: 3}
+      propertyPath: stopAction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2878194667517389773, guid: 169a601b62659cd4aa07c415731eff1b,

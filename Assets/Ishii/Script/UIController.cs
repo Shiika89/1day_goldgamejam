@@ -21,6 +21,7 @@ public class UIController : MonoBehaviour
 
     private void OnEnable()
     {
+        GameLoop.OnGameStart += () => OnGameStart();
         GameLoop.OnGameInit += () => OnGameInitUI();
         GameLoop.OnGameEnd += () => OnResultUI();
         Score.OnUpdateScore += () => OnUpdateScore();
@@ -28,6 +29,7 @@ public class UIController : MonoBehaviour
 
     private void OnDisable()
     {
+        GameLoop.OnGameStart -= () => OnGameStart();
         GameLoop.OnGameInit -= () => OnGameInitUI();
         GameLoop.OnGameEnd -= () => OnResultUI();
         Score.OnUpdateScore -= () => OnUpdateScore();
@@ -43,7 +45,7 @@ public class UIController : MonoBehaviour
     }
 
     /// <summary>
-    /// ゲーム開始時やリスタート時に呼ばれる
+    /// リスタート時に呼ばれる
     /// </summary>
     public void OnGameInitUI()
     {
@@ -58,5 +60,13 @@ public class UIController : MonoBehaviour
     {
         m_totalScoreText.text = $"SCORE ; {Score.TotalScore}";　// リザルトスコアを表示
         m_restratPanel.SetActive(true); // リザルトパネルをアクティブ化
+    }
+
+    /// <summary>
+    /// ゲームが開始すると呼ばれる
+    /// </summary>
+    public void OnGameStart()
+    {
+        m_startButton.SetActive(false); // スタートボタンを非表示
     }
 }

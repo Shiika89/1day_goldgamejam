@@ -19,7 +19,15 @@ public class ShakeObject : MonoBehaviour
     private void Awake()
     {
         m_startPos = transform.localPosition;
+    }
+    private void OnEnable()
+    {
         ShakeController.OnShake += StartShake;
+    }
+
+    private void OnDisable()
+    {
+        ShakeController.OnShake -= StartShake;
     }
     public void StartShake(float time)
     {

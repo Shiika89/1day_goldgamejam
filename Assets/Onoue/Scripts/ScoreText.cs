@@ -4,10 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ScoreText : MonoBehaviour
 {
-    Text _text;
+    [SerializeField] Text _text;
+    [SerializeField] float _time = 2;
     void Start()
     {
-        _text = GetComponent<Text>();
+        StartCoroutine(Destroy());
+    }
+    IEnumerator Destroy()
+    {
+        yield return new WaitForSeconds(_time);
+        Destroy(gameObject);
     }
     public void SetScore(int score)
     {

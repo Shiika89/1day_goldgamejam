@@ -2,23 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 砲弾を撃つため照準をマウスに追従させるクラス
+/// </summary>
 public class Follow : MonoBehaviour
 {
-    private Vector3 _mouse;
-    private Vector3 _target;
+    Vector3 _mouse;
+    Vector3 _target;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        // マウスのpositionにtargetが追従する、zだけは固定
         _mouse = Input.mousePosition;
         _target = Camera.main.ScreenToWorldPoint(new Vector3(_mouse.x, _mouse.y, 10));
-        //_target.y = transform.position.y;
         this.transform.position = _target;
     }
 }

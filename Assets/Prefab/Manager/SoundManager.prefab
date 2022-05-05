@@ -278,4 +278,4 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e2ea2940725dfe347b670f58728edff8, type: 3}
   m_bgmSource: {fileID: 6988152903690841787}
   m_bgmVolume: 0.2
-  m_seVolume: 0.3
+  m_seVolume: 0.2

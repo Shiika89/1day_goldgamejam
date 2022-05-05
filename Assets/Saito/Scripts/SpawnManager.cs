@@ -7,6 +7,8 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] Transform[] _spawnPoints;
     [SerializeField] GameObject _enemyPrefab;
     [SerializeField] float _popTime;
+    [SerializeField] int _maxRandNum = 0;
+    float _randNum;
     float _currnetTime = 0;
     bool _inGame = false;
     private void OnEnable()
@@ -24,7 +26,7 @@ public class SpawnManager : MonoBehaviour
         if (!_inGame) return;
         _currnetTime += Time.deltaTime;
 
-        if (_currnetTime > _popTime) Spawn();
+        if (_currnetTime > _popTime + _randNum) Spawn();
     }
     public void Spawn()
     {
@@ -36,6 +38,7 @@ public class SpawnManager : MonoBehaviour
     public void SpawnStart()
     {
         _currnetTime = 0;
+        _randNum = Random.Range(0, _maxRandNum);
         _inGame = true;
     }
     public void SpawnEnd()

@@ -43,7 +43,7 @@ public class UIController : MonoBehaviour
     /// </summary>
     public void OnUpdateScore()
     {
-        m_nowScoreText.text = $"SCORE ; {Score.TotalScore}";　// 現在のスコアを表示
+        m_nowScoreText.text = $"{Score.TotalScore}";　// 現在のスコアを表示
         
     }
 
@@ -69,7 +69,7 @@ public class UIController : MonoBehaviour
     /// </summary>
     public void OnResultUI()
     {
-        m_totalScoreText.text = $"SCORE ; {Score.TotalScore}";　// リザルトスコアを表示
+        m_totalScoreText.text = $"スコア : {Score.TotalScore}";　// リザルトスコアを表示
         m_restratPanel.SetActive(true); // リザルトパネルをアクティブ化
     }
 

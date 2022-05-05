@@ -32,6 +32,7 @@ public class TargetController : MonoBehaviour
             }
             //自身を消去
             Destroy(gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }

@@ -17,6 +17,7 @@ public class UIController : MonoBehaviour
     [Tooltip("ゲーム中に表示するスコア")]
     [SerializeField] Text m_nowScoreText;
 
+    [Tooltip("弾の弾数表示")]
     [SerializeField] Text m_numBullets;
 
     private void OnEnable()
@@ -46,6 +47,9 @@ public class UIController : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// 弾を撃つたびに呼ばれる
+    /// </summary>
     public void OnUpdateBullet()
     {
         m_numBullets.text = $"{NumberOfBullets.NowBullet} / {Fire.Instance.MaxBullet}";

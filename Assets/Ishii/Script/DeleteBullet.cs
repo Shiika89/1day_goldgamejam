@@ -8,6 +8,7 @@ public class DeleteBullet : MonoBehaviour
 
     void Update()
     {
+        // 弾が一定以下まで落ちたら消える
         if (this.transform.position.y < m_desPos)
         {
             Destroy(gameObject);

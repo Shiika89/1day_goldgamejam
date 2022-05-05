@@ -22,21 +22,24 @@ public class Fire : MonoBehaviour
     [SerializeField] float m_interval;
     float _timer;
 
+    [Tooltip("弾の最大弾数")]
     [SerializeField] int m_maxBullet;
     public int MaxBullet { get => m_maxBullet; }
 
+    // 弾の現在弾数
     public int NowBullet { get; set; }
 
+    [Tooltip("最後の弾を撃ってからリザルト画面を出すまでの時間")]
     [SerializeField] int m_gameEndWaitTime;
     public int GameEndWaitTime { get => m_gameEndWaitTime; }
 
-    bool _IsStart;
+    bool _IsStart; // ゲーム中か判定するフラグ
 
 
     void Awake()
     {
         Instance = this;
-        NowBullet = m_maxBullet;
+        NowBullet = m_maxBullet; // 現在弾数を最大弾数と同じに
     }
 
     private void OnEnable()
@@ -57,13 +60,13 @@ public class Fire : MonoBehaviour
 
         _timer += Time.deltaTime;
 
-        if (_timer > m_interval && NowBullet != 0)
+        if (_timer > m_interval && NowBullet != 0) // 一定時間ごとに撃てる
         {
             // 左クリックで発射
             if (Input.GetMouseButtonDown(0))
             {
                 BulletShot();
-                NumberOfBullets.DecreaseBullet();
+                NumberOfBullets.DecreaseBullet(); // 弾数を減らす
                 _timer = 0;
             }
         }
@@ -96,8 +99,6 @@ public class Fire : MonoBehaviour
     void GameEnd()
     {
         _IsStart = false;
-        NowBullet = m_maxBullet;
+        NowBullet = m_maxBullet; // リスタート時は弾数リセット
     }
-
-
 }

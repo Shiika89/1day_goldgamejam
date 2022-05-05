@@ -96,7 +96,7 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    public static void Play(SEType type)
+    public static void PlaySE(SEType type)
     {
         if (instance)
         {
@@ -130,6 +130,7 @@ public class SoundManager : MonoBehaviour
         m_bgmSource.clip = m_bgmDic[type];
         m_bgmSource.Play();
         m_bgmSource.loop = true;
+        m_bgmSource.volume = m_bgmVolume;
         CurrentBGM = type;
         m_isPlaying = true;
     }

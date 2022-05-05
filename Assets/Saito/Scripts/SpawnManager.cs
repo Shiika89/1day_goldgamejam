@@ -31,6 +31,7 @@ public class SpawnManager : MonoBehaviour
     public void Spawn()
     {
         _currnetTime = 0;
+        _randNum = Random.Range(0, _maxRandNum);
 
         int randPoint = Random.Range(0, _spawnPoints.Length);
         Instantiate(_enemyPrefab, _spawnPoints[randPoint].transform.position, Quaternion.identity);
@@ -39,6 +40,7 @@ public class SpawnManager : MonoBehaviour
     {
         _currnetTime = 0;
         _randNum = Random.Range(0, _maxRandNum);
+
         _inGame = true;
     }
     public void SpawnEnd()

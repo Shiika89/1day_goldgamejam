@@ -7,6 +7,8 @@ using UnityEngine;
 /// </summary>
 public class Fire : MonoBehaviour
 {
+    static public Fire Instance;
+
     [Tooltip("弾を出したい位置のオブジェクト")]
     [SerializeField] GameObject m_muzzle;
 
@@ -16,13 +18,54 @@ public class Fire : MonoBehaviour
     [Tooltip("弾のスピード")]
     [SerializeField] float m_bulletSpeed;
 
+    [Tooltip("次の弾が撃てるまでのインターバル")]
+    [SerializeField] float m_interval;
+    float _timer;
+
+    [SerializeField] int m_maxBullet;
+    public int MaxBullet { get => m_maxBullet; }
+
+    public int NowBullet { get; set; }
+
+    [SerializeField] int m_gameEndWaitTime;
+    public int GameEndWaitTime { get => m_gameEndWaitTime; }
+
+    bool _IsStart;
+
+
+    void Awake()
+    {
+        Instance = this;
+        NowBullet = m_maxBullet;
+    }
+
+    private void OnEnable()
+    {
+        GameLoop.OnGameStart += GameStart;
+        GameLoop.OnGameEnd += GameEnd;
+    }
+
+    private void OnDisable()
+    {
+        GameLoop.OnGameStart -= GameStart;
+        GameLoop.OnGameEnd -= GameEnd;
+    }
 
     void Update()
     {
-        // 左クリックで発射
-        if (Input.GetMouseButtonDown(0))
+        if (_IsStart == false) return;
+
+        _timer += Time.deltaTime;
+
+        if (_timer > m_interval)
         {
-            BulletShot();
+            // 左クリックで発射
+            if (Input.GetMouseButtonDown(0))
+            {
+                BulletShot();
+                NumberOfBullets.DecreaseBullet();
+                _timer = 0;
+            }
         }
     }
 
@@ -39,5 +82,20 @@ public class Fire : MonoBehaviour
 
         // 弾の発射方向にnewBallのz方向(ローカル座標)を入れ、弾オブジェクトのrigidbodyに衝撃力を加える
         newBall.GetComponent<Rigidbody>().AddForce(dir * m_bulletSpeed, ForceMode.Impulse);
+
+        
     }
+
+    void GameStart()
+    {
+        _IsStart = true;
+    }
+
+    void GameEnd()
+    {
+        _IsStart = false;
+        NowBullet = m_maxBullet;
+    }
+
+
 }

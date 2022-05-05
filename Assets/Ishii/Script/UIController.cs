@@ -25,6 +25,7 @@ public class UIController : MonoBehaviour
         GameLoop.OnGameInit += () => OnGameInitUI();
         GameLoop.OnGameEnd += () => OnResultUI();
         Score.OnUpdateScore += () => OnUpdateScore();
+        NumberOfBullets.OnUpdetaBullet += () => OnUpdateBullet();
     }
 
     private void OnDisable()
@@ -33,6 +34,7 @@ public class UIController : MonoBehaviour
         GameLoop.OnGameInit -= () => OnGameInitUI();
         GameLoop.OnGameEnd -= () => OnResultUI();
         Score.OnUpdateScore -= () => OnUpdateScore();
+        NumberOfBullets.OnUpdetaBullet -= () => OnUpdateBullet();
     }
 
     /// <summary>
@@ -42,6 +44,11 @@ public class UIController : MonoBehaviour
     {
         m_nowScoreText.text = $"SCORE ; {Score.TotalScore}";　// 現在のスコアを表示
         
+    }
+
+    public void OnUpdateBullet()
+    {
+        m_numBullets.text = $"{NumberOfBullets.NowBullet} / {Fire.Instance.MaxBullet}";
     }
 
     /// <summary>
@@ -68,5 +75,6 @@ public class UIController : MonoBehaviour
     public void OnGameStart()
     {
         m_startButton.SetActive(false); // スタートボタンを非表示
+        m_numBullets.text = $"{NumberOfBullets.NowBullet} / {Fire.Instance.MaxBullet}";
     }
 }

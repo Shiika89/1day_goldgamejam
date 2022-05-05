@@ -57,7 +57,7 @@ public class Fire : MonoBehaviour
 
         _timer += Time.deltaTime;
 
-        if (_timer > m_interval)
+        if (_timer > m_interval && NowBullet != 0)
         {
             // 左クリックで発射
             if (Input.GetMouseButtonDown(0))
@@ -83,7 +83,9 @@ public class Fire : MonoBehaviour
         // 弾の発射方向にnewBallのz方向(ローカル座標)を入れ、弾オブジェクトのrigidbodyに衝撃力を加える
         newBall.GetComponent<Rigidbody>().AddForce(dir * m_bulletSpeed, ForceMode.Impulse);
 
-        
+        EffectManager.Instance.PlayEffect(EffectType.Shot, m_muzzle.transform.position);
+
+        SoundManager.PlaySE(SEType.Shot);
     }
 
     void GameStart()

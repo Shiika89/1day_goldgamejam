@@ -271,6 +271,7 @@ MonoBehaviour:
   m_seClips:
   - {fileID: 8300000, guid: a1ac486f0e9633044bcc91852b976bd5, type: 3}
   - {fileID: 8300000, guid: 5e7e9728c5fb7df4d977410a0d64648a, type: 3}
+  - {fileID: 8300000, guid: c9ee943251c8f0d42a64cc2d6f0e9dbe, type: 3}
   m_bgmClips:
   - {fileID: 8300000, guid: c49ba47004a297a4ca80899fd0e797e6, type: 3}
   - {fileID: 8300000, guid: 4d8d5944a08838c43a34c8b31acb6c09, type: 3}

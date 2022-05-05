@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -889647097118009550}
   m_Layer: 0
   m_Name: Cannonball
-  m_TagString: Untagged
+  m_TagString: Cannon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,4 +123,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94e475baeeeaab344a61cd1bb2ce483e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_desPos: -3
+  m_desPos: -10

@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
     }
+    private void Start()
+    {
+        FadeController.StartFadeIn();
+    }
     public void GameStart()
     {
         //ボタンを押した時にゲームが始まる

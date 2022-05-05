@@ -5061,7 +5061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir: {x: 1, y: 0, z: 0}
-  speed: 5
+  speed: 6
 --- !u!114 &7748708760712797347
 MonoBehaviour:
   m_ObjectHideFlags: 0

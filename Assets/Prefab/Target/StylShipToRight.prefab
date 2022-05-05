@@ -541,7 +541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97bfc62c7b3b52a419c1e33c8079885d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_scoreValue: 3000
+  m_scoreValue: 1000
   _scoreText: {fileID: 1951885391576531972}
 --- !u!65 &8719678205844861094
 BoxCollider:
@@ -569,7 +569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir: {x: 1, y: 0, z: 0}
-  speed: 30
+  speed: 20
 --- !u!114 &7155587738415093784
 MonoBehaviour:
   m_ObjectHideFlags: 0

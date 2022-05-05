@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97bfc62c7b3b52a419c1e33c8079885d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_scoreValue: 300
+  m_scoreValue: 3000
   _scoreText: {fileID: 4229536435639069899}
 --- !u!114 &9021234172759431084
 MonoBehaviour:
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir: {x: 1, y: 0, z: 0}
-  speed: 2
+  speed: 3
 --- !u!54 &9021234172759431085
 Rigidbody:
   m_ObjectHideFlags: 0

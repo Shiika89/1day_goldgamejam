@@ -11,6 +11,10 @@ public class ObjectRemover : MonoBehaviour
     {
         GameLoop.OnGameEnd += DestroyObject;
     }
+    private void OnDisable()
+    {
+        GameLoop.OnGameEnd -= DestroyObject;
+    }
 
     void DestroyObject() => Destroy(gameObject);
     

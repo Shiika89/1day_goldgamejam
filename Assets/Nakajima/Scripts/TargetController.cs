@@ -8,7 +8,11 @@ public class TargetController : MonoBehaviour
     [Tooltip("当てた際に加算するスコア")]
     [SerializeField]
     int m_scoreValue = 100;
-    [SerializeField] ScoreText _scoreText;
+    [SerializeField]
+    ScoreText _scoreText;
+
+    bool _isHit = false;
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Cannon") //大砲がヒットした場合
@@ -19,9 +23,13 @@ public class TargetController : MonoBehaviour
             EffectManager.Instance.PlayEffect(EffectType.Explosion, transform.position);
             EffectManager.Instance.PlayEffect(EffectType.CoinBurst, transform.position);
             SoundManager.PlaySE(SEType.Hit);
-            var text = Instantiate(_scoreText);
-            text.SetScore(m_scoreValue);
-            text.transform.position = transform.position;
+            if (!_isHit)
+            {
+                var text = Instantiate(_scoreText);
+                text.SetScore(m_scoreValue);
+                text.transform.position = transform.position;
+                _isHit = true;
+            }
             //自身を消去
             Destroy(gameObject);
         }

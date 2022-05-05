@@ -16,6 +16,9 @@ public class TargetController : MonoBehaviour
             //スコア加算の処理
             Score.AddScore(m_scoreValue);
             //エフェクト生成
+            EffectManager.Instance.PlayEffect(EffectType.Explosion, transform.position);
+            EffectManager.Instance.PlayEffect(EffectType.CoinBurst, transform.position);
+            SoundManager.PlaySE(SEType.Hit);
             var text = Instantiate(_scoreText);
             text.SetScore(m_scoreValue);
             text.transform.position = transform.position;

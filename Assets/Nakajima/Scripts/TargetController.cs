@@ -17,14 +17,14 @@ public class TargetController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Cannon") //大砲がヒットした場合
         {
-            //スコア加算の処理
-            Score.AddScore(m_scoreValue);
             //エフェクト生成
             EffectManager.Instance.PlayEffect(EffectType.Explosion, transform.position);
             EffectManager.Instance.PlayEffect(EffectType.CoinBurst, transform.position);
             SoundManager.PlaySE(SEType.Hit);
             if (!_isHit)
             {
+                //スコア加算の処理
+                Score.AddScore(m_scoreValue);
                 var text = Instantiate(_scoreText);
                 text.SetScore(m_scoreValue);
                 text.transform.position = transform.position;

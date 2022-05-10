@@ -46,12 +46,14 @@ public class Fire : MonoBehaviour
     {
         GameLoop.OnGameStart += GameStart;
         GameLoop.OnGameEnd += GameEnd;
+        NumberOfBullets.OnUpdetaBullet += BulletCheck;
     }
 
     private void OnDisable()
     {
         GameLoop.OnGameStart -= GameStart;
         GameLoop.OnGameEnd -= GameEnd;
+        NumberOfBullets.OnUpdetaBullet-= BulletCheck;
     }
 
     void Update()
@@ -100,5 +102,20 @@ public class Fire : MonoBehaviour
     {
         _IsStart = false;
         NowBullet = m_maxBullet; // リスタート時は弾数リセット
+    }
+
+    IEnumerator OutOfBullet()
+    {
+        yield return new WaitForSeconds(m_gameEndWaitTime);
+
+        GameManager.Instance.GameEnd();
+    }
+
+    public void BulletCheck()
+    {
+        if (NowBullet == 0)
+        {
+            StartCoroutine(OutOfBullet());
+        }
     }
 }

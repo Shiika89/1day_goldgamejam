@@ -22,17 +22,9 @@ public class NumberOfBullets
     {
         NowBullet--; // 弾数を減らす
 
-        if (NowBullet == 0)
-        {
-            GameEnd(); // 最後の弾を撃ったら終了
-        }
-    }
-
-    static async void GameEnd()
-    {
-        // 最後の弾を撃ってから時間を空ける
-        await Task.Delay(Fire.Instance.GameEndWaitTime * 1000);
-
-        GameManager.Instance.GameEnd();
+        //if (NowBullet == 0)
+        //{
+        //    GameEnd(); // 最後の弾を撃ったら終了
+        //}
     }
 }
